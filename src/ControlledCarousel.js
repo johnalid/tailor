@@ -2,6 +2,9 @@ import React from 'react'
  import 'bootstrap/dist/css/bootstrap.min.css'
 import {Carousel} from 'react-bootstrap'
 import {useState} from 'react'
+import preschool from './image/preschool.jpg'
+import preschool1 from './image/preschool1.jpg'
+import preschool2 from './image/preschool2.jpg'
 
 
 function ControlledCarousel() {
@@ -16,7 +19,7 @@ function ControlledCarousel() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="holder.js/800x400?text=First slide&bg=373940"
+            src={preschool}
             alt="First slide"
           />
           <Carousel.Caption>
@@ -27,7 +30,7 @@ function ControlledCarousel() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="holder.js/800x400?text=Second slide&bg=282c34"
+            src={preschool1}
             alt="Second slide"
           />
   
@@ -39,7 +42,7 @@ function ControlledCarousel() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="holder.js/800x400?text=Third slide&bg=20232a"
+            src={preschool2}
             alt="Third slide"
           />
   

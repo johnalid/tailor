@@ -1,13 +1,13 @@
 
 import './App.css';
 import Home from './Home'
-// import Nav from './Nav'
+import Nave from './Nave'
 
 function App() {
   return (
     <div className="App">
-    {/* <Nav/> */}
-    <Home/>  
+   <Nave />
+    <Home className="mt-5" />  
        
   
     </div>
