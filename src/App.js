@@ -6,6 +6,7 @@ import Gallery from './Gallery'
 import Contact from './Contact'
 import About from './About'
 import Footer from './Footer'
+import NotAPage from './NotAPage'
 import {Switch, Route} from 'react-router-dom'
 
 
@@ -17,6 +18,7 @@ function App() {
 <Route exact path='/' component={Home} />
 <Route path='/gallery' component={Gallery} />
 <Route path='/contact' component={Contact} />
+<Route component={NotAPage} />
 
 
     <Home className="mt-5" />  

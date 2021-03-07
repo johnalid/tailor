@@ -106,11 +106,19 @@ function Saying() {
 </Carousel>
 
 
+
+
             </div>
 
                 </div>
 
-                
+                <div className="d-flex justify-content-between">
+ <div className="text-black">Hello</div>
+
+ <div className="text-danger ml-5">word</div>
+
+
+</div>        
 
 
                 

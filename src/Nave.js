@@ -9,7 +9,7 @@ function Nave() {
         <div>
 
 <>
-  <Navbar collapseOnSelect expand="lg" bg="primary" variant="dark">
+  <Navbar collapseOnSelect expand="lg" bg="primary" variant="dark" id="Navbar">
     <Navbar.Brand href="#home" className="mr-5"><img src={logo} alt="logo" className="logo"/> <span className="Navbar">LASTOFA</span> </Navbar.Brand>
     <Navbar.Toggle aria-controls="responsive-navbar-nav" className=" border border-light" />
   <Navbar.Collapse id="responsive-navbar-nav">

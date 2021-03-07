@@ -65,3 +65,33 @@ height: 330px !important;
   border-radius: 10px;
   background-color: brown;
 }
+
+#Navbar{
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+}
+
+.navbar-collapse {
+  flex-basis: 0 !important;
+  -ms-flex-positive: 1;
+  flex-grow: 0 !important;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+@media (max-width:600px){
+  .navbar-collapse {
+    flex-basis: 100% !important;
+    flex-direction: column !important;
+    flex-grow: 1 !important;
+    -ms-flex-align: center;
+    
+  }
+
+  #responsive-navbar-nav a{
+    margin-top: 10px !important;
+    text-align: right !important;
+    margin-right: 0 !important;
+  }
+}
