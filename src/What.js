@@ -1,4 +1,6 @@
 import React from 'react'
+import bi from './image/bi.jpg'
+
 
 function What() {
     return (
@@ -128,6 +130,7 @@ function What() {
                     
                     
                 </div>
+                <marquee behavior="scroll" direction="left"><img src={bi} /><img src={bi} /><img src={bi} /><img src={bi} /><img src={bi} /><img src={bi} /><img src={bi} /><img src={bi} /><img src={bi} /><img src={bi} /><img src={bi} /><img src={bi} /></marquee>
 
                
             </div>
