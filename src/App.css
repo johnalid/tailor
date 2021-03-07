@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 } */
+
+.navImg{
+  height: 600px !important;
+  width: 300px !important;
+}
+
+.logo{
+  height: 60px;
+  width: 60px;
+  border-radius: 100px;
+
+}

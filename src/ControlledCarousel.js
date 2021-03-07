@@ -2,9 +2,10 @@ import React from 'react'
  import 'bootstrap/dist/css/bootstrap.min.css'
 import {Carousel} from 'react-bootstrap'
 import {useState} from 'react'
-import preschool from './image/preschool.jpg'
-import preschool1 from './image/preschool1.jpg'
-import preschool2 from './image/preschool2.jpg'
+import lastofa from './image/lastofa.jpg'
+import lastofa1 from './image/lastofa1.jpg'
+import {Button} from 'react-bootstrap'
+import lastofa2 from './image/lastofa2.jpg'
 
 
 function ControlledCarousel() {
@@ -18,39 +19,40 @@ function ControlledCarousel() {
       <Carousel activeIndex={index} onSelect={handleSelect}>
         <Carousel.Item>
           <img
-            className="d-block w-100"
-            src={preschool}
+            className="navImg d-block w-100"
+            src={lastofa}
             alt="First slide"
           />
           <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <h3>Half Body Smoky</h3>
+            <p>This was specially made to fit the body Click the link Below to Check all our custom made gowns and tailored cloth.</p>
+            <Button>Click me</Button>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="d-block w-100"
-            src={preschool1}
+            className="navImg d-block w-100"
+            src={lastofa1}
             alt="Second slide"
           />
   
           <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h3>Full Body Smoky</h3>
+            <p>This was specially made to fit the body Click the link Below to Check all our custom made gowns and tailored cloth.</p>
+            <Button>Click me</Button>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="d-block w-100"
-            src={preschool2}
+            className="navImg d-block w-100"
+            src={lastofa2}
             alt="Third slide"
           />
   
           <Carousel.Caption>
-            <h3>Third slide label</h3>
-            <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p>
+            <h3>Gown smoky</h3>
+            <p>This was specially made to fit the body Click the link Below to Check all our custom made gowns and tailored cloth.</p>
+            <Button>Click me</Button>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
