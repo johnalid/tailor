@@ -58,3 +58,10 @@ height: 330px !important;
 .carousel-indicators li{
   display: none !important;
 }
+
+.span{
+  width: 80px;
+  height: 6px;
+  border-radius: 10px;
+  background-color: brown;
+}

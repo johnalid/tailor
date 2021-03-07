@@ -12,6 +12,10 @@ function What() {
                     what do you need help for?
                 </h3>
 
+                <div className="text-center d-flex justify-content-center">
+                <div className="span"></div>
+                </div>
+
                 <div class="container-fluid row  text-left">
                     <div class="col-lg-3 col-md-6 col-sm-12 mt-3 justify-content-center">
                         <div>

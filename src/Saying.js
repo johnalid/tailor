@@ -9,6 +9,11 @@ function Saying() {
     return (
         <div className="container-fluid mt-4">
             <h3 className="text-center">WHAT PEOPLE ARE SAYING ABOUT US</h3>
+
+<div className="text-center d-flex justify-content-center">
+<div className="span"></div>
+</div>
+
             <div className="row">
                 <div className="col-lg-6 col-md-6 col-sm-12 mt-5">
 
