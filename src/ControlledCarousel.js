@@ -1,11 +1,11 @@
 import React from 'react'
- import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/css/bootstrap.min.css'
 import {Carousel} from 'react-bootstrap'
 import {useState} from 'react'
 import lastofa from './image/lastofa.jpg'
 import lastofa1 from './image/lastofa1.jpg'
-import {Button} from 'react-bootstrap'
 import lastofa2 from './image/lastofa2.jpg'
+import {Link} from 'react-router-dom'
 
 
 function ControlledCarousel() {
@@ -26,7 +26,7 @@ function ControlledCarousel() {
           <Carousel.Caption>
             <h3>Half Body Smoky</h3>
             <p>This was specially made to fit the body Click the link Below to Check all our custom made gowns and tailored cloth.</p>
-            <Button>Click me</Button>
+            <Link className="btn btn-primary" to="/Gallery">Click Me</Link>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -39,7 +39,7 @@ function ControlledCarousel() {
           <Carousel.Caption>
             <h3>Full Body Smoky</h3>
             <p>This was specially made to fit the body Click the link Below to Check all our custom made gowns and tailored cloth.</p>
-            <Button>Click me</Button>
+            <Link className="btn btn-primary" to="/Gallery">Click Me</Link>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -52,7 +52,7 @@ function ControlledCarousel() {
           <Carousel.Caption>
             <h3>Gown smoky</h3>
             <p>This was specially made to fit the body Click the link Below to Check all our custom made gowns and tailored cloth.</p>
-            <Button>Click me</Button>
+            <Link className="btn btn-primary" to="/Gallery">Click Me</Link>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>

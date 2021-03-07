@@ -1,6 +1,8 @@
 import React from 'react'
 import {Nav, Navbar,} from 'react-bootstrap'
 import logo from './image/logo.jpg'
+import {Link} from 'react-router-dom'
+
 
 function Nave() {
     return (
@@ -12,9 +14,9 @@ function Nave() {
     <Navbar.Toggle aria-controls="responsive-navbar-nav" className=" border border-light" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="ml-5">
-      <Nav.Link href="#home" className="text-white">Home</Nav.Link>
-      <Nav.Link href="#features" className="text-white">Features</Nav.Link>
-      <Nav.Link href="#pricing" className="text-white">Pricing</Nav.Link>
+      <Link to="/" className="text-white mx-3">Home</Link>
+      <Link to="/Gallery" className="text-white mx-3">Gallery</Link>
+      <Link to="/Contact" className="text-white mx-3">Contact</Link>
     </Nav>
   
     </Navbar.Collapse>
